@@ -1,0 +1,7 @@
+import numpy as np
+
+vals = np.random.randint(1, 11, 1000000)
+
+count_of_3 = np.sum(vals == 3)
+
+print("The number of occurrences of 3:", count_of_3)
